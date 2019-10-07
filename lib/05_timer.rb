@@ -9,5 +9,7 @@
 def time_string(second) # seconds
 Time.at(second).utc.strftime("%H:%M:%S")
 end
+#at crée un nouvel objet "time", .utc est le fuseau horaire
+#sfrtime permet de formatter le temps au format choisi" 
 
-puts time_string(4000)
+
